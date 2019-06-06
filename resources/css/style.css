@@ -1,0 +1,13 @@
+html {
+  font-size: 18px;
+}
+
+.headerrow {
+  background-color: green;
+  color: white;
+}
+
+.banner {
+  background-image: url("../../resources/images/moto.jpeg");
+  background-size: cover;
+}
