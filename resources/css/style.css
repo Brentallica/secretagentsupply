@@ -234,3 +234,89 @@ footer {
     width: auto;
   }
 }
+
+@media only screen and (max-width: 470px) {
+
+  .banner {
+    background-image: url("../../resources/images/moto.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+  }
+
+  .bannercontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 10rem;
+  }
+
+  .bannertext {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-left: 2rem;
+  }
+
+  .bannertext h1 {
+    font-size: .77rem;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+
+  .bannertext h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: .25rem;
+    padding-bottom: 2rem;
+  }
+
+  .headerrow img {
+    height: 1.5rem;
+    padding: 30% 0;
+  }
+
+  #four, #two {
+    display: none;
+  }
+
+  .productsbar {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem 0;
+  }
+  .item {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .informationcontainer {
+    background-color: white;
+  }
+
+  .informationbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location {
+    width: 90%;
+    padding-bottom: 4rem;
+  }
+
+  .box h3 {
+    background-color: black;
+    color: white;
+    padding: 1rem 0 1rem 2rem;
+  }
+
+}
