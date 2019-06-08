@@ -3,12 +3,6 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
-/* .screen {
-  width: 100%;
-  flew-direction: column;
-  background-color: black;
-} */
-
 .maincontainer {
   display: flex;
   flex-direction: column;
@@ -43,6 +37,7 @@ html {
 .banner {
   background-image: url("../../resources/images/moto.jpeg");
   background-size: cover;
+  background-position: center;
   height: 25rem;
 }
 
@@ -73,5 +68,35 @@ html {
   font-weight: bold;
   padding-top: .25rem;
   padding-bottom: 2rem;
+}
 
+/*  Navigation stylings  */
+
+.navigation {
+  background-color: firebrick;
+  color: white;
+}
+
+.navigationcontainer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.navigationcontainer li {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+/*  Products stylings  */
+
+.productscontainer {
+  background-color: white;
+}
+
+.productsbar {
+  width: 960px;
+  margin: 0 auto;
 }
