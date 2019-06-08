@@ -90,6 +90,10 @@ html {
   padding-bottom: .75rem;
 }
 
+.navigationsinglemenu {
+  display: none;
+}
+
 /*  Products stylings  */
 
 .productscontainer {
@@ -165,4 +169,26 @@ footer {
 .footercontainer {
   width: 960px;
   margin: 0 auto;
+}
+
+/*  Media Queries  */
+
+@media only screen and (max-width: 1024px) {
+  .navigationsinglemenu {
+    display: block;
+  }
+  .navigationcontainer {
+    display: none;
+  }
+  .navigationsinglemenu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+  }
+  .navigationsinglemenu li {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+  }
 }
