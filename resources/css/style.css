@@ -127,3 +127,42 @@ html {
   padding: .5rem 0;
   text-align: center;
 }
+
+/*  information bar stylings  */
+
+.informationcontainer {
+  background-color: white;
+}
+
+.informationbar {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.location {
+  width: 35%;
+  padding-bottom: 4rem;
+}
+
+.box h3 {
+  background-color: black;
+  color: white;
+  padding: 1rem 0 1rem 2rem;
+}
+
+/*  Footer stylings */
+
+footer {
+  height: 5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.footercontainer {
+  width: 960px;
+  margin: 0 auto;
+}
